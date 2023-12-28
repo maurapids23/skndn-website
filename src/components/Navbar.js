@@ -1,4 +1,3 @@
-import { click } from '@testing-library/user-event/dist/click'
 import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import { Button } from './Button';
@@ -50,7 +49,7 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="/Products" className='nav-links' onClick={closeMobileMenu}>
+                        <Link to="/Blog" className='nav-links' onClick={closeMobileMenu}>
                             Blog
                         </Link>
                     </li>
@@ -58,14 +57,9 @@ function Navbar() {
                         <Link to="/Contact-Us" className='nav-links' onClick={closeMobileMenu}>
                             Contact Us
                         </Link>
-                    </li>
-                    <li className='nav-item'>
-                        <Link to="/Sign-up" className='nav-links-mobile' onClick={closeMobileMenu}>
-                            Sign Up
-                        </Link>
-                    </li>       
+                    </li>     
                 </ul>
-                {button && <Button buttonStyle='btn--outline'>Sign Up</Button>}  
+                {button &&  <Button buttonStyle='btn--outline' propsToPage={"/Sign-Up"}>Sign Up</Button>}  
             </div>
         </nav>
     </>

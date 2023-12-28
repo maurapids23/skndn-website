@@ -51,10 +51,6 @@ video{
     height: 100%;
 }
 
-.hero-btns:hover .btn-links{
-    color: black;
-    transition: all 0.2s ease-in-out;
-}
 
 @media screen and (max-width: 960px) {
     .hero-container > h1 {

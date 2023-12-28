@@ -1,7 +1,6 @@
 import React from 'react';
 import './Button.css';
 import { Link } from 'react-router-dom';
-import { type } from '@testing-library/user-event/dist/type';
 
 const STYLES = ['btn--primary', 'btn--outline']
 
@@ -12,7 +11,8 @@ export const Button = ({
     type,
     onClick,
     buttonStyle,
-    buttonSize
+    buttonSize,
+    propsToPage
 
 }) => {
     const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0]
@@ -21,7 +21,7 @@ export const Button = ({
 
 
 return (
-    <Link>
+    <Link to= {propsToPage} >
         <button 
             className={`btn ${checkButtonStyle} ${checkButtonSize}`}
             onClick={onClick}
