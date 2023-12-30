@@ -33,14 +33,14 @@ button{
     
 }
 
-form{
+.formform{
     background-color: rgb(255, 255, 255);
     padding: 0px 90px;
     border-radius: 10px;
 }
 
-h1{
-    color:  #242424;
+.formh1{
+    color:  #000000;
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;

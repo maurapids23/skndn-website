@@ -62,8 +62,8 @@ function Subscription() {
 
   return (
     <div className='app-form'>
-        <form onSubmit={handleSubmit}>
-          <h1>Register</h1>
+        <form className='formform' onSubmit={handleSubmit}>
+          <h1 className='formh1'>Register</h1>
             {inputs.map((input) => (
               <FormInput key={input.id} {...input} value= {values[input.name]} onChange={onChange}/>
             ))}
