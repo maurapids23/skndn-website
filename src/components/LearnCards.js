@@ -8,7 +8,7 @@ function LearnCards() {
         <section className='info'>
             <img src="/images/img-mulesoft.jpg"/>
             <h1>
-                Learn Mulesoft
+                Mulesoft
             </h1>
         </section>
         <section className='cards-wrapper'>
@@ -40,7 +40,7 @@ function LearnCards() {
         <section className='info'>
             <img src="/images/img-java.jpg"/>
             <h1>
-                Learn Java
+                Java
             </h1>
         </section>
         <section className='cards-wrapper'>
@@ -53,7 +53,7 @@ function LearnCards() {
                 cardTag = "Java"
             />
             <LearnCardsItem 
-                reference="/Learn/Java/lesson01"
+                reference="/Learn/Java/lesson02"
                 cardImg = {`url(images/cards-java-coreEE.jpg)`}
                 cardTitle = "Java Core"
                 cardText = "Start your carreer with java as a core language"
@@ -61,7 +61,7 @@ function LearnCards() {
                 cardTag = "Java"
             />
             <LearnCardsItem 
-                reference="/Learn/Java/lesson01"
+                reference="/Learn/Java/lesson03"
                 cardImg = {`url(images/cards-java-lambda.jpg)`}
                 cardTitle = "Lambda"
                 cardText = "What are Lambda functions in java and what are their purpose"
@@ -72,32 +72,32 @@ function LearnCards() {
         <section className='info'>
             <img src="/images/img-python.jpg"/>
             <h1>
-                Learn Python
+                Python
             </h1>
         </section>
         <section className='cards-wrapper'>
             <LearnCardsItem 
                 reference="/Learn/Python/lesson01"
-                cardImg = {`url(/images/testing.jpg)`}
+                cardImg = {`url(images/cards-python-numpy.jpg)`}
                 cardTitle = "NumPy"
                 cardText = "Learn what NumPy functions are most used in Python"
-                cardDate = "28-Dec-2023"
+                cardDate = "29-Dec-2023"
                 cardTag = "Python"
             />
             <LearnCardsItem 
-                reference="/Learn/Python/lesson01"
-                cardImg = {`url(/images/testing.jpg)`}
-                cardTitle = "NumPy"
-                cardText = "Learn what NumPy functions are most used in Python"
-                cardDate = "28-Dec-2023"
+                reference="/Learn/Python/lesson02"
+                cardImg = {`url(images/cards-python-pytorch.jpg)`}
+                cardTitle = "Pytorch"
+                cardText = "Start your AI career with Pytorch and Python"
+                cardDate = "29-Dec-2023"
                 cardTag = "Python"
             />
             <LearnCardsItem 
-                reference="/Learn/Python/lesson01"
-                cardImg = {`url(/images/testing.jpg)`}
-                cardTitle = "NumPy"
+                reference="/Learn/Python/lesson03"
+                cardImg = {`url(images/cards-python-tensorflow.jpg)`}
+                cardTitle = "Tensorflow"
                 cardText = "Learn what NumPy functions are most used in Python"
-                cardDate = "28-Dec-2023"
+                cardDate = "29-Dec-2023"
                 cardTag = "Python"
             />
         </section>
