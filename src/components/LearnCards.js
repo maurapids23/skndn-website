@@ -17,7 +17,7 @@ function LearnCards() {
                 cardImg = {`url(/images/cards-mulesoft-raml.jpg)`}
                 cardTitle = "RAML"
                 cardText = "What is RAML and how it is used inside REST APIs"
-                cardDate = "28-Dec-2023"
+                cardDate = "28-Dec-2024"
                 cardTag = "Mulesoft"
             />
             <LearnCardsItem 
@@ -25,7 +25,7 @@ function LearnCards() {
                 cardImg = {`url(/images/cards-mulesoft-dataweave.jpg)`}
                 cardTitle = "Dataweave"
                 cardText = "Learn what dataweave functions are most used in Mulesoft"
-                cardDate = "28-Dec-2023"
+                cardDate = "28-Dec-2024"
                 cardTag = "Mulesoft"
             />
             <LearnCardsItem 
@@ -33,7 +33,7 @@ function LearnCards() {
                 cardImg = {`url(/images/cards-mulesoft-exchange.jpg)`}
                 cardTitle = "Exchange"
                 cardText = "How to Publish APIs to Anypoint Echange"
-                cardDate = "28-Dec-2023"
+                cardDate = "28-Dec-2024"
                 cardTag = "Mulesoft"
             />
         </section>
@@ -49,7 +49,7 @@ function LearnCards() {
                 cardImg = {`url(/images/cards-java-springboot.jpg)`}
                 cardTitle = "Spring boot"
                 cardText = "Learn how to accelerate and simplify microservices"
-                cardDate = "28-Dec-2023"
+                cardDate = "28-Dec-2024"
                 cardTag = "Java"
             />
             <LearnCardsItem 
@@ -57,7 +57,7 @@ function LearnCards() {
                 cardImg = {`url(images/cards-java-coreEE.jpg)`}
                 cardTitle = "Java Core"
                 cardText = "Start your carreer with java as a core language"
-                cardDate = "28-Dec-2023"
+                cardDate = "28-Dec-2024"
                 cardTag = "Java"
             />
             <LearnCardsItem 
@@ -65,7 +65,7 @@ function LearnCards() {
                 cardImg = {`url(images/cards-java-lambda.jpg)`}
                 cardTitle = "Lambda"
                 cardText = "What are Lambda functions in java and what are their purpose"
-                cardDate = "28-Dec-2023"
+                cardDate = "28-Dec-2024"
                 cardTag = "Java"
             />
         </section>
@@ -81,7 +81,7 @@ function LearnCards() {
                 cardImg = {`url(images/cards-python-numpy.jpg)`}
                 cardTitle = "NumPy"
                 cardText = "Learn what NumPy functions are most used in Python"
-                cardDate = "29-Dec-2023"
+                cardDate = "29-Dec-2024"
                 cardTag = "Python"
             />
             <LearnCardsItem 
@@ -89,7 +89,7 @@ function LearnCards() {
                 cardImg = {`url(images/cards-python-pytorch.jpg)`}
                 cardTitle = "Pytorch"
                 cardText = "Start your AI career with Pytorch and Python"
-                cardDate = "29-Dec-2023"
+                cardDate = "29-Dec-2024"
                 cardTag = "Python"
             />
             <LearnCardsItem 
@@ -97,7 +97,7 @@ function LearnCards() {
                 cardImg = {`url(images/cards-python-tensorflow.jpg)`}
                 cardTitle = "Tensorflow"
                 cardText = "Learn what NumPy functions are most used in Python"
-                cardDate = "29-Dec-2023"
+                cardDate = "29-Dec-2024"
                 cardTag = "Python"
             />
         </section>

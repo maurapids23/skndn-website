@@ -22,7 +22,6 @@ function Cards() {
                         text= "Explore the top integration tool in the market: Mulesoft"
                         path= "/Learn/Mulesoft"
                         label= "Mulesoft"
-                        component = {<LearnMulesoft/>}
                         >
                     </CardItem>
                 </ul>
